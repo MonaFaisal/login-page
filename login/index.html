@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container my-5 text-center">
+      <div class="m-auto w-75 p-5 text-center login">
+        <h1>Smart Login System</h1>
+        <form action="" id="form">
+          <input
+            type="text"
+            class="form-control my-3"
+            placeholder="Enter your email"
+            id="yourEmail"
+          />
+          <input
+            type="password"
+            class="form-control my-3"
+            placeholder="Enter your password"
+            id="yourPass"
+          />
+          <p>
+            <span class="d-none warning"> All inputs is required </span>
+            <span class="d-none warning2">incorrect email or password</span>
+          </p>
+          <button
+            type="button"
+            class="w-100 my-3 btn btn-outline-info"
+            onclick="checkInput()">
+            login
+          </button>
+        </form>
+        <h6 class="my-3 text-white">
+          Don’t have an account?
+          <a href="./sign-in.html" class="text-white"> Sign Up</a>
+        </h6>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

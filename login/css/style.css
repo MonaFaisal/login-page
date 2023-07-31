@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #24353f;
+    margin: 0;
+    height: 100vh;
+}
+h1{
+    color: #17a2b8;
+}
+.form-control{
+    background-color: transparent;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.login{
+    box-shadow: black 0px 0px 35px -9px;
+    background-color: #24353f;
+}
+span{
+    color: red;
+}
